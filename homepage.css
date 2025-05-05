@@ -1,0 +1,140 @@
+* {
+    /*resetar todos os estilos*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*fonte padrão*/
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    /*cor de fundo do menu*/
+    background-color: #49a54e;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    /*tira as bolinhas*/
+    display: flex;
+    /*pra organizar horizontalmente*/
+    justify-content: center;
+    /*colocra no centro*/
+}
+
+nav ul li {
+    margin: 0 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /*espaçamento entre os itens*/
+}
+
+nav ul li a {
+    text-decoration: none;
+    /*tira a linha embaixo*/
+    color: white;
+    /*com da fonte*/
+    font-size: 18px;
+    /*tamamho da fonte*/
+    padding: 10px 15px;
+    /*aumenta o espaço de clique*/
+    transition: background 0.3s;
+    /*animação*/
+}
+
+nav ul li a::after {
+    content: " ▼";
+    /* setinha para baixo */
+    font-size: 14px;
+}
+
+.blog img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    /* Adiciona espaço abaixo da imagem */
+}
+
+.blog {
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: justify;
+    /* Align items at the start */
+}
+
+.blog h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(34, 119, 34);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 22px;
+}
+
+.blog h3{
+    text-align: center;
+    margin-top: 30px; 
+    color: rgb(34, 119, 34);
+}
+
+.blog p{ /*config. parágrafos*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.blog ol li{
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 150px;
+    margin-top: 25px;
+    color: rgb(64, 141, 64);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blog dl dt{
+    color: rgb(60, 134, 60);
+    margin-left: 150px;
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.blog dl dd{
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.blog ul li{
+    color: rgb(60, 134, 60);
+    margin-left: 150px;
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 17px;
+    font-size: bold;
+}
+
+footer{
+    background-color: #49a54e;
+    margin-top: 25px;
+    text-align: center;
+    padding: 10px;
+}
